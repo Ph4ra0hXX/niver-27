@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1 class="title">Aniversário do Wesley</h1>
+    <p class="subtitle">"O amanhecer no mar nos espera!"</p>
     <img src="./banco.gif" alt="GIF animado" class="gif" />
     <div
       style="margin-left: 20px; margin-right: 20px; margin-top: -50px"
@@ -52,6 +53,16 @@ export default {
   margin-bottom: -50px;
   color: #ffffff;
   z-index: 999999;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-top: 55px;
+  margin-bottom: -60px;
+  z-index: 999999;
+  opacity: 0.9;
 }
 
 .gif {
